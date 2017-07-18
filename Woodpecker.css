@@ -1,0 +1,270 @@
+/** Add css rules here for your application. */
+
+body,html {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 0 none;
+    color: #000000;
+    direction: ltr;`
+    padding: 0;
+    margin:0;
+    width:100%;
+    height:100%;
+
+}
+
+input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.mainContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.modalMain {
+  padding:50px 50px 50px 50px;
+  border: 1px solid #F3F3F3;
+  background: #FFFFFF;
+}
+
+.right{
+  float:right;
+  width:20%;
+  border-left:1px solid #CCCCCC;
+  padding-left: 20px;
+
+}
+
+.left{
+  float:left;
+  width:65%
+}
+.head1{
+  color:#3A3A3A;
+  text-transform: uppercase;
+}
+#divContent{
+  width:70%;
+}
+.label{
+  display: inline;
+  float: left;
+  text-align: right;
+}
+.value{
+  float:right;
+  width:70%;
+}
+.value-size{
+  width: 84%;
+}
+.cline{
+  display:block;
+  padding-top:50px;
+}
+.btns{
+  display: inline-block;
+  padding-top: 50px;
+}
+.or{
+  margin: 0px 20px 0px 20px;
+  padding-top:12px;
+  color:#D9D9D9;
+}
+.gwt-Label, .or{
+  float:left;
+}
+.labelUnderline{
+  float:right;
+  text-decoration: underline;
+  color:#D9D9D9;
+  padding-top:12px;
+}
+.line2{
+  padding-top:74px;
+}
+
+
+.unit{
+  font-size:46px;
+  width:100%;
+}
+
+.inputField{
+  width:100%;
+  border-top: inherit;
+  border-left: inherit;
+  border-right: inherit;
+  border-bottom-color: #CCCCCC;
+}
+
+.myComboBox{
+   background: url("./image/left-arrow.png") no-repeat right #ddd;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color:inherit;
+
+
+}
+.myComboBox:after{
+  padding: 2px 2px 2px 2px;
+  background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat 60px center;
+}
+
+.buttonGreen{
+  background:#97C33A;
+  color:white;
+  padding: 10px 20px 10px 20px;
+}
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+
+div.clear {
+  clear: both;
+}
+.inLineLeft {
+	float: left;
+}
+.inLineRight {
+	float: right;
+}
+
+
+
+
+.loaderRotate
+{
+animation:myrotate 3s linear infinite;
+-webkit-animation:myrotate 3s linear infinite; /* Safari and Chrome */
+display: block;
+}
+
+
+.loaderRotateFast
+{
+animation:myrotate 1s linear infinite;
+-webkit-animation:myrotate 1s linear infinite; /* Safari and Chrome */
+display: block;
+}
+
+
+@keyframes myrotate {
+0%   {transform:rotate(0deg);}
+100% {transform:rotate(360deg);}
+}
+
+@-webkit-keyframes myrotate /* Safari and Chrome */ {
+0%   {-webkit-transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);}
+}
+
+
+.myRadioON{
+	background-image: url("img/radio_button.png");
+	height: 17px;
+	width: 17px;
+	float: left;
+	position: relative;
+    top: 4px;
+    margin-right: 6px;
+    margin-left: 0px;
+    background-position: -35px 0px;
+}
+
+.myRadioOFF{
+	background-image: url("img/radio_button.png");
+	height: 17px;
+	width: 17px;
+	float: left;
+    position: relative;
+    top: 4px;
+    margin-right: 6px;
+    margin-left: 0px;
+}
+
+
+
+.myCheckON{
+	height: 15px;
+	width: 15px;
+	float: left;
+	background-position: -36px 0px;
+}
+
+.myCheckOFF{
+	height: 15px;
+	width: 15px;
+	float: left;
+}
+
+.myCheckOND{
+	height: 15px;
+	width: 15px;
+	float: left;
+	background-position: -72px 0px;
+}
+
+.childCell {
+  padding-left: 30px;
+  border: 2px solid #eee !important;
+  background: #eee !important;
+}
+
+.groupHeaderCell {
+  padding: 1px 15px;
+  color: #4b4a4a;
+  text-shadow: #ddf 1px 1px 0;
+  font-size: 130%;
+  background: #eee;
+}
+
+
+
+
+
+.colCDCBCC{
+	color: #bdbdbd;
+}
+.boxSizing {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.maxWidth{
+	width: 100%;
+}

@@ -1,0 +1,97 @@
+/* ==========================================================================
+	#Fonts
+========================================================================== */
+@font-face {
+    font-family: 'Avignon Book';
+    src: url('fonts/avignon-regular-webfont.eot');
+    src: url('fonts/avignon-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/avignon-regular-webfont.woff') format('woff'),
+         url('fonts/avignon-regular-webfont.ttf') format('truetype'),
+         url('fonts/avignon-regular-webfont.svg#avignonbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avignon Book Italic';
+    src: url('fonts/avignon-italic-webfont.eot');
+    src: url('fonts/avignon-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/avignon-italic-webfont.woff') format('woff'),
+         url('fonts/avignon-italic-webfont.ttf') format('truetype'),
+         url('fonts/avignon-italic-webfont.svg#avignonbookitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avignon Demi';
+    src: url('fonts/avignon-demi-webfont.eot');
+    src: url('fonts/avignon-demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/avignon-demi-webfont.woff') format('woff'),
+         url('fonts/avignon-demi-webfont.ttf') format('truetype'),
+         url('fonts/avignon-demi-webfont.svg#avignondemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+.fontBook{
+	font-family: 'Avignon Book'
+}
+.fontDemi{
+	font-family: 'Avignon Demi'
+}
+	
+.fontBookItalic{
+	font-family: 'Avignon Book Italic'
+}
+
+.fontBook13{
+	font-family: 'Avignon Book';
+	font-size: 13px;
+}
+.fontBook14{
+	font-family: 'Avignon Book';
+	font-size: 14px;
+}
+.fontBook16{
+	font-family: 'Avignon Book';
+	font-size: 16px;
+}
+.fontBook18{
+	font-family: 'Avignon Book';
+	font-size: 18px;
+}
+.fontBook19{
+	font-family: 'Avignon Book';
+	font-size: 19px;
+}
+
+.fontBook20{
+	font-family: 'Avignon Book';
+	font-size: 20px;
+}
+.fontBook22{
+	font-family: 'Avignon Book';
+	font-size: 22px;
+}
+
+.fontBook30{
+	font-family: 'Avignon Book';
+	font-size: 30px;
+}
+
+.fontDemi16{
+	font-family: 'Avignon Demi';
+	font-size: 16px;
+}
+.fontDemi19{
+	font-family: 'Avignon Demi';
+	font-size: 19px;
+}
+.fontDemi20{
+	font-family: 'Avignon Demi';
+	font-size: 20px;
+}
